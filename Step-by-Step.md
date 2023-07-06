@@ -101,9 +101,11 @@ Next we have to give our web app permissions to read the cost management informa
 - lib folder
 
 5. It should look something like this:
+<br/>
+
 ![](/img/contents.png)
 
-  
+<br/>
 
 # References/Notes:
 # Hardware
