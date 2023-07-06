@@ -61,9 +61,13 @@ Next we have to give our web app permissions to read the cost management informa
 ![](/img/Role_Assignments.png)
 
 3. Search for, and select _Cost Management Reader_:
-![](/img/cost_management_reader.png
+<br/>
+
+![](/img/cost_management_reader.png)
 
 4. Search for, and select the _Azure-Cost-Monitor_ entity we created earlier, then click Next/Save:
+<br/>
+
 ![](/img/Select_Memebers.png)
 
 
