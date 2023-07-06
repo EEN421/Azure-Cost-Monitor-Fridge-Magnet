@@ -20,7 +20,9 @@ In this post, we will create and/or leverage the following:
 ![](1)
 
 3. Run these commands in the Azure Command Line Interface (CLI):
-- az ad sp create-for-rbac --name azure-cost-monitor
+```sql
+az ad sp create-for-rbac --name azure-cost-monitor
+```
 
 4. Note the following from the output:
 - AppID
