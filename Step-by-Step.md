@@ -34,7 +34,8 @@ az ad sp create-for-rbac --name azure-cost-monitor
 5. Navigate to "Subscriptions" in the top search bar, illustrated below:
 ![](next)
 
-- Select your Subscription and navigate to the _Overview_ Blade to see the SubscriptionID
+- Select your Subscription and navigate to the _Overview_ Blade
+- Grab your _SubscriptionID_
 
 
 
