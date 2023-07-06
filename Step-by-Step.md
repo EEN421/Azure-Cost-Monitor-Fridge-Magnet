@@ -2,7 +2,7 @@
 This project is intended to demonstrate a real-world use-case for leveraging the [Azure cost management API](https://learn.microsoft.com/en-us/rest/api/cost-management/).
 
 In this post, we will create and/or leverage the following:
-- An Azure Web App and Assign an RBAC Role
+- An Azure Web App & Assign an RBAC Role
 - AppID
 - Password
 - TenantID
@@ -13,6 +13,28 @@ In this post, we will create and/or leverage the following:
 - Connect a battery and magnets so it can run on any magnetic surface (whiteboard, fridge, etc.) completely wirelessly
 - Be awesome
 
+# Create Azure Web App & Assign RBAC Role
+
+1. Login to the [Azure Portal](www.portal.azure.com)
+2. Select the CloudShell button illustrated below:
+![](1)
+
+3. Run these commands in the Azure Command Line Interface (CLI):
+- az ad sp create-for-rbac --name azure-cost-monitor
+
+4. Note the following from the output:
+- AppID
+- Password
+- TenantID
+
+5. Navigate to "Subscriptions" in the top search bar, illustrated below:
+![](next)
+
+- Select your Subscription and note the SubscriptionID
+
+
+
+  
 
 # References/Notes:
 # Hardware
