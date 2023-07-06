@@ -74,10 +74,10 @@ Next we have to give our web app permissions to read the cost management informa
 ![](/img/Select_Memebers.png)
 
 # Program the MagTag
-- Plug your MagTag into your computer using a USB-C cable _capable of transmitting data and not just charging!_
-- Launch UF2 boot loader by double-clicking the Reset button (the one next to the USB C port). You may have to try a few times to get the timing right.
-- you will see a new disk drive appear called MAGTAGBOOT or CIRCUITPY (depending on your hardware model)
-- Copy the following:
+1. Plug your MagTag into your computer using a USB-C cable _capable of transmitting data and not just charging!_
+2. Launch UF2 boot loader by double-clicking the Reset button (the one next to the USB C port). You may have to try a few times to get the timing right.
+3. You will see a new disk drive appear called MAGTAGBOOT or CIRCUITPY (depending on your hardware model)
+4. Copy the following:
 - azure.py
 - code.py
 - secrets.py
