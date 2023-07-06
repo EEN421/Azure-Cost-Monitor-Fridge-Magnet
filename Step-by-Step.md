@@ -108,7 +108,7 @@ Next we have to give our web app permissions to read the cost management informa
 
 # Program the MagTag
 1. Plug your MagTag into your computer using a USB-C cable _capable of transmitting data and not just charging!_
-2. Launch UF2 boot loader by double-clicking the Reset button (the one next to the USB C port). You may have to try a few times to get the timing right.
+2. Launch [UF2 boot loader by double-clicking the Reset button (the one next to the USB C port). You may have to try a few times to get the timing right](https://learn.adafruit.com/adafruit-magtag/rom-bootloader).  
 3. You will see a new disk drive appear called MAGTAGBOOT or CIRCUITPY (depending on your hardware model)
 4. Copy [these files](https://github.com/EEN421/Azure-Cost-Monitor-Fridge-Magnet/tree/Main/Code) to your device:
 - [azure.py](https://github.com/EEN421/Azure-Cost-Monitor-Fridge-Magnet/blob/Main/Code/azure.py)
@@ -122,6 +122,11 @@ Next we have to give our web app permissions to read the cost management informa
 ![](/img/contents.png)
 
 <br/>
+
+> **_Pro-Tip: you can also program this hardware using the [Web Serial ESPTool](https://learn.adafruit.com/adafruit-magtag/web-serial-esptool) and even connect via COM port via [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) (on Windows, check DevMgmt.msc for COM devices and not the COM port). The [REPL Tool](https://learn.adafruit.com/adafruit-metro-esp32-s2/the-repl) is pretty handy for troubleshooting on the fly too.**_
+
+# Assembly
+- Connect the LiPo battery and screw in the magnetic feet
 
 # Hardware
 - [Adafruit MagTag - 2.9" Grayscale E-Ink WiFi Display (ESP32)](https://www.adafruit.com/product/4800)
