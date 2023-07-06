@@ -11,7 +11,7 @@ In this post, we will create and/or leverage the following:
 - Generate a secrets.py file
 - Deploy Circuit Python locally & Connect to Azure cost management API
 - Connect a battery and magnets so it can run on any magnetic surface (whiteboard, fridge, etc.) completely wirelessly
-- Be awesome
+- *Be awesome*
 
 # Create Azure Web App & Assign RBAC Role
 
