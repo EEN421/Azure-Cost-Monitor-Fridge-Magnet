@@ -73,11 +73,28 @@ Next we have to give our web app permissions to read the cost management informa
 
 ![](/img/Select_Memebers.png)
 
+<br/>
+
+5. Take the information you just gathered and enter it into the [secrets.py file](https://github.com/EEN421/Azure-Cost-Monitor-Fridge-Magnet/blob/Main/Code/secrets.py) like this: 
+
+```sql
+secrets = {
+  "ssid" : "Your-WiFi-SSID",
+  "password" : "Your-WiFi-PSK",
+  "appId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "clientSecret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "tenant": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "subscription": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+}
+```
+
+<br/>
+
 # Program the MagTag
 1. Plug your MagTag into your computer using a USB-C cable _capable of transmitting data and not just charging!_
 2. Launch UF2 boot loader by double-clicking the Reset button (the one next to the USB C port). You may have to try a few times to get the timing right.
 3. You will see a new disk drive appear called MAGTAGBOOT or CIRCUITPY (depending on your hardware model)
-4. Copy the following:
+4. Copy [these files](https://github.com/EEN421/Azure-Cost-Monitor-Fridge-Magnet/tree/Main/Code) to your device:
 - azure.py
 - code.py
 - secrets.py
