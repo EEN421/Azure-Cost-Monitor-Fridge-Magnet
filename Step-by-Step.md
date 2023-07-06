@@ -40,6 +40,7 @@ az ad sp create-for-rbac --name azure-cost-monitor
 
 - Select your Subscription and navigate to the _Overview_ Blade
 - Grab your _SubscriptionID_
+<br/>
 ![](/img/subID.png)
 
 # Assign Cost Management Reader Role
