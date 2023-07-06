@@ -36,6 +36,7 @@ az ad sp create-for-rbac --name azure-cost-monitor
 ![](/img/az_creds.png)
 
 5. Navigate to "Subscriptions" in the top search bar, illustrated below:
+<br/>
 ![](/img/subs.png)
 
 - Select your Subscription and navigate to the _Overview_ Blade
@@ -47,9 +48,11 @@ az ad sp create-for-rbac --name azure-cost-monitor
 Next we have to give our web app permissions to read the cost management information:
 
 1. Navigate to your Subscription and select the _Identity & Access Management (IAM)_ Blade:
+<br/>
 ![](/img/Sub_IAM.png)
 
 2. Click on _+ Add_ then _Add Role Assignment_:
+<br/>
 ![](/img/Role_Assignments.png)
 
 3. Search for, and select _Cost Management Reader_:
