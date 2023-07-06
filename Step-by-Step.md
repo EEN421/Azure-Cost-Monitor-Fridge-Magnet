@@ -98,7 +98,10 @@ Next we have to give our web app permissions to read the cost management informa
 - azure.py
 - code.py
 - secrets.py
+- lib folder
 
+5. It should look something like this:
+![](/img/contents.png)
 
   
 
