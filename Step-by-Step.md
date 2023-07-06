@@ -46,7 +46,20 @@ az ad sp create-for-rbac --name azure-cost-monitor
 <br/>
 
 # Build your secrets.py File
+- Take the information you just gathered and enter it into the [secrets.py file](https://github.com/EEN421/Azure-Cost-Monitor-Fridge-Magnet/blob/Main/Code/secrets.py) like this: 
 
+```sql
+secrets = {
+  "ssid" : "Your-WiFi-SSID",
+  "password" : "Your-WiFi-PSK",
+  "appId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "clientSecret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "tenant": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "subscription": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+}
+```
+
+<br/>
 
 ![](/img/subID.png)
 
@@ -75,20 +88,7 @@ Next we have to give our web app permissions to read the cost management informa
 
 <br/>
 
-5. Take the information you just gathered and enter it into the [secrets.py file](https://github.com/EEN421/Azure-Cost-Monitor-Fridge-Magnet/blob/Main/Code/secrets.py) like this: 
 
-```sql
-secrets = {
-  "ssid" : "Your-WiFi-SSID",
-  "password" : "Your-WiFi-PSK",
-  "appId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
-  "clientSecret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-  "tenant": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
-  "subscription": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-}
-```
-
-<br/>
 
 # Program the MagTag
 1. Plug your MagTag into your computer using a USB-C cable _capable of transmitting data and not just charging!_
