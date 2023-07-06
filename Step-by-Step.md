@@ -17,7 +17,7 @@ In this post, we will create and/or leverage the following:
 
 1. Login to the [Azure Portal](www.portal.azure.com)
 
-2. Select the CloudShell button illustrated below:
+2. Select the CloudShell button illustrated below: <br/>
 ![](/img/CLI.png)
 
 3. Run these commands in the Azure Command Line Interface (CLI):
@@ -31,6 +31,7 @@ az ad sp create-for-rbac --name azure-cost-monitor
 - Password
 - TenantID
 ```
+<br/>
 
 ![](/img/az_creds.png)
 
