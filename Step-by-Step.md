@@ -121,18 +121,10 @@ Next we have to give our web app permissions to read the cost management informa
 
 <br/>
 
-# References/Notes:
 # Hardware
 - [Adafruit MagTag - 2.9" Grayscale E-Ink WiFi Display (ESP32)](https://www.adafruit.com/product/4800)
 - [Lithium Ion Polymer Battery with Short Cable - 3.7V 420mAh](https://www.adafruit.com/product/4236)
 - [Mini Magnet Feet for RGB LED Matrices (Pack of 4)](https://www.adafruit.com/product/4631)
 
-# Azure Pre-Requisites
-- AppID
-- Password
-- TenantID
-- SubscriptionID
 
-# Firmware Pre-Requisites
-- Install Circuit Python 
 
