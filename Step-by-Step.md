@@ -25,9 +25,11 @@ az ad sp create-for-rbac --name azure-cost-monitor
 ```
 
 4. Note the following from the output:
+```sql
 - AppID
 - Password
 - TenantID
+```
 
 5. Navigate to "Subscriptions" in the top search bar, illustrated below:
 ![](next)
