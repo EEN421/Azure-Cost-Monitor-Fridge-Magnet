@@ -123,7 +123,7 @@ Next we have to give our web app permissions to read the cost management informa
 
 <br/>
 
-> **_Pro-Tip: you can also program this hardware using the [Web Serial ESPTool](https://learn.adafruit.com/adafruit-magtag/web-serial-esptool) and even connect via COM port via [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) (on Windows, check DevMgmt.msc for COM devices and not the COM port). The [REPL Tool](https://learn.adafruit.com/adafruit-metro-esp32-s2/the-repl) is pretty handy for troubleshooting on the fly too._**
+> **_Pro-Tip: you can also program this hardware using the [Web Serial ESPTool](https://learn.adafruit.com/adafruit-magtag/web-serial-esptool) and even connect via COM port via [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) (on Windows, check DevMgmt.msc for COM devices and note the COM port). The [REPL Tool](https://learn.adafruit.com/adafruit-metro-esp32-s2/the-repl) is pretty handy for troubleshooting on the fly too._**
 
 # Assembly
 - Connect the LiPo battery and screw in the magnetic feet
