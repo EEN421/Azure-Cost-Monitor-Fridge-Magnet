@@ -95,6 +95,8 @@ Next we have to give our web app permissions to read the cost management informa
 
 ![](/img/cost_management_reader.png)
 
+<br/>
+
 4. Search for, and select the _Azure-Cost-Monitor_ entity we created earlier, then click Next/Save:
 <br/>
 
@@ -109,10 +111,10 @@ Next we have to give our web app permissions to read the cost management informa
 2. Launch UF2 boot loader by double-clicking the Reset button (the one next to the USB C port). You may have to try a few times to get the timing right.
 3. You will see a new disk drive appear called MAGTAGBOOT or CIRCUITPY (depending on your hardware model)
 4. Copy [these files](https://github.com/EEN421/Azure-Cost-Monitor-Fridge-Magnet/tree/Main/Code) to your device:
-- azure.py
-- code.py
-- secrets.py
-- lib folder
+- [azure.py](https://github.com/EEN421/Azure-Cost-Monitor-Fridge-Magnet/blob/Main/Code/azure.py)
+- [code.py](https://github.com/EEN421/Azure-Cost-Monitor-Fridge-Magnet/blob/Main/Code/code.py)
+- [secrets.py](https://github.com/EEN421/Azure-Cost-Monitor-Fridge-Magnet/blob/Main/Code/secrets.py)
+- [lib folder](https://github.com/EEN421/Azure-Cost-Monitor-Fridge-Magnet/tree/Main/Code/Lib)
 
 5. It should look something like this:
 <br/>
