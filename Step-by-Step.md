@@ -5,7 +5,7 @@ In this post, we will create and/or leverage the following:
 
 <br/>
 
-1. Azure Requirements:
+**1. Azure Requirements:**
 - An Azure Web App & Assign an RBAC Role
 - AppID
 - Password
@@ -15,13 +15,13 @@ In this post, we will create and/or leverage the following:
 
 <br/>
 
-2. Software Requirements:
+**2. Software Requirements:**
 - Generate a secrets.py file
 - Deploy Circuit Python locally & Connect to Azure cost management API
 
 <br/>
 
-3. Hardware Requirements:
+**3. Hardware Requirements:**
 - Connect a battery and magnets so it can run on any magnetic surface (whiteboard, fridge, etc.) completely wirelessly
 - *_Be awesome_*
 
