@@ -2,7 +2,9 @@
 This project is intended to demonstrate a real-world use-case for leveraging the [Azure cost management API](https://learn.microsoft.com/en-us/rest/api/cost-management/).
 
 In this post, we will create and/or leverage the following:
+
 <br/>
+
 1. Azure Requirements:
 - An Azure Web App & Assign an RBAC Role
 - AppID
@@ -10,14 +12,19 @@ In this post, we will create and/or leverage the following:
 - TenantID
 - SubscriptionID
 - Assign Cost Management Reader Privileges to Subscription
+
 <br/>
+
 2. Software Requirements:
 - Generate a secrets.py file
 - Deploy Circuit Python locally & Connect to Azure cost management API
+
 <br/>
+
 3. Hardware Requirements:
 - Connect a battery and magnets so it can run on any magnetic surface (whiteboard, fridge, etc.) completely wirelessly
 - *_Be awesome_*
+
 <br/>
 
 # Create Azure Web App & Assign RBAC Role
