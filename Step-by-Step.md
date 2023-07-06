@@ -16,8 +16,9 @@ In this post, we will create and/or leverage the following:
 # Create Azure Web App & Assign RBAC Role
 
 1. Login to the [Azure Portal](www.portal.azure.com)
+
 2. Select the CloudShell button illustrated below:
-![](1)
+![](/img/CLI.png)
 
 3. Run these commands in the Azure Command Line Interface (CLI):
 ```sql
@@ -31,11 +32,29 @@ az ad sp create-for-rbac --name azure-cost-monitor
 - TenantID
 ```
 
+![](/img/az_creds.png)
+
 5. Navigate to "Subscriptions" in the top search bar, illustrated below:
-![](next)
+![](/img/subs.png)
 
 - Select your Subscription and navigate to the _Overview_ Blade
 - Grab your _SubscriptionID_
+![](/img/subID.png)
+
+# Assign Cost Management Reader Role
+Next we have to give our web app permissions to read the cost management information:
+
+1. Navigate to your Subscription and select the _Identity & Access Management (IAM)_ Blade:
+![](/img/Sub_IAM.png)
+
+2. Click on _+ Add_ then _Add Role Assignment_:
+![](/img/Role_Assignments.png)
+
+3. Search for, and select _Cost Management Reader_:
+![](/img/cost_management_reader.png
+
+4. Search for, and select the _Azure-Cost-Monitor_ entity we created earlier, then click Next/Save:
+![](/img/Select_Memebers.png)
 
 
 
